@@ -1,0 +1,25 @@
+{
+    "name": "tradingview_playwright",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test --project=e2e",
+        "report": "playwright show-report",
+        "install:browsers": "playwright install chromium"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nemadur/Tradingview_Playwright.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Nemadur/Tradingview_Playwright/issues"
+    },
+    "homepage": "https://github.com/Nemadur/Tradingview_Playwright#readme",
+    "devDependencies": {
+        "@playwright/test": "^1.63.0"
+    }
+}
